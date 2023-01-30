@@ -55,11 +55,11 @@ public class Server {
         }
     }
 
-    // ClientHandler class
+
     private static class ClientHandler implements Runnable {
         private final Socket clientSocket;
 
-        // Constructor
+
         public ClientHandler(Socket socket) {
             this.clientSocket = socket;
         }
